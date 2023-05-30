@@ -1,4 +1,3 @@
-
 export type CharacterProps = {
   id: string;
   title: string;
@@ -6,13 +5,12 @@ export type CharacterProps = {
   thumbnail: {
     path: string;
     extension: string;
-  }
+  };
   dates: DateType[];
   creators: {
-    items: CreatorType[]
-  } 
-}
-
+    items: CreatorType[];
+  };
+};
 
 export type DateType = {
   date: string;
@@ -23,4 +21,3 @@ export type CreatorType = {
   name: string;
   resourceURI: string;
 };
-

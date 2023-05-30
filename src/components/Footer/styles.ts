@@ -18,8 +18,8 @@ export const Container = styled.main`
   }
 
   p {
-    font-size: 24px;
-
+    font-size: 18px;
+    color: #fff;
   }
 
   button {
@@ -39,7 +39,8 @@ export const Container = styled.main`
     }
 
     p {
-      font-size: 20px;
+      font-size: 16px;
+      color: #fff;
     }
   }
 `;
