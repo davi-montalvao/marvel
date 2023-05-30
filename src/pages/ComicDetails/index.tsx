@@ -7,7 +7,7 @@ import Image from 'next/image';
 import { MainContainer, ComicDetailsContainer, ImageWrapper } from "./styles";
 
 import { MONTHS } from "@/utils/months";
-import { CharacterProps, CreatorType } from "@/types/character";
+import { CharacterProps, CreatorType } from "../../types/character";
 
 const ComicDetails = () => {
   const router = useRouter();
