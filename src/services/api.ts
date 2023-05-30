@@ -11,12 +11,13 @@ const dateRange = '2020-01-01,2022-01-01';
 
 
 const api = axios.create({
-  baseURL: 'http://gateway.marvel.com/v1/public',
+  baseURL: 'https://gateway.marvel.com/v1/public',
   params: {
     ts,
     apikey: publicKey,
     hash,
-    dateRange
+    dateRange,
+    offset: 0,
   }
 })
 
