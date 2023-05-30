@@ -1,12 +1,12 @@
 import { useCallback, useEffect, useState } from "react";
 import { ButtonMore, Card, CardList, Container } from "./styles";
 
-import { Loading } from "@/components/Loading";
+import { Loading } from "../../components/Loading";
 
 import { useRouter } from "next/router";
 
-import { CharacterProps } from "@/types/character";
-import api from "@/services/api";
+import { CharacterProps } from "../../types/character";
+import api from "../../services/api";
 
 export const Characters = () => {
   const router = useRouter();

@@ -2,11 +2,11 @@ import { useRouter } from "next/router";
 import { useCallback, useEffect, useState } from "react";
 import api from "../../services/api";
 
-import { Loading } from "@/components/Loading";
+import { Loading } from "../../components/Loading";
 import Image from 'next/image';
 import { MainContainer, ComicDetailsContainer, ImageWrapper } from "./styles";
 
-import { MONTHS } from "@/utils/months";
+import { MONTHS } from "../../utils/months";
 import { CharacterProps, CreatorType } from "../../types/character";
 
 const ComicDetails = () => {
